@@ -1,0 +1,9 @@
+{
+  "name": "fuelcontrol",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Sistema web vanilla com backend Node.js para controle de combustíveis.",
+  "scripts": { "start": "node server.js", "check": "node --check server.js && node --check database.js && node --check script.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "pg": "^8.16.3" }
+}
